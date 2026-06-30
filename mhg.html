@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Evil illustration</title>
+        <link rel="stylesheet" href="css/mhg.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-kE+4d...==" crossorigin="anonymous" referrerpolicy="no-referrer" />`
+    </head>
+
+    <body>
+        <header class="entete">
+            <div class="logo-entete">
+                <img src="images/LOGO FOND Noir1.png" alt="Evil Illustration">
+            </div>
+            <nav class="navigation-principale">
+                <a href="#accueil" class="lien-nav lien-nav--actif">Accueil</a>
+                <a href="#styles" class="lien-nav">Styles</a>
+                <a href="#commande" class="lien-nav">Commander</a>
+            </nav>
+            <div class="actions-entete">
+                <button class="icone-action icone-panier">
+                    <i class="fa-solid fa-bag-shopping" style="color: rgb(219, 2, 2);"></i>
+                    <span class="badge-panier">1</span>
+                </button>
+            </div>
+        </header>
+
+        <div class="presentation">
+            <div class="texte-presentation">
+                <h1>STREETWEAR <span>MANGA</span></h1>
+                <p>Porte une œuvre qui te ressemble. Choisis ton personnage, ton style et crée un vêtement unique, imprimé avec soin.</p>
+                <p class="villes-presentation">— Dakar . Saint-Louis . Djamenajo —</p>
+                <button class="bouton-cta">Commander maintenant <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="image-presentation">
+                <video  autoplay muted loop>
+                <source src="images/Vegeta.mp4" type="video/mp4"></video>
+            </div>
+        </div>
+
+        <section id="styles">
+            <h2 class="titre-section">Choisis ton <span>style de dessin</span></h2>
+
+            <div class="grille-styles">
+
+                <div class="carte-style">
+                    <img src="images/vegeta.png" alt="" class="image-style">
+                    <h3>Shonen Action</h3>
+                    <p>Traits dynamiques, énergie de combat</p>
+                </div>
+
+                <div class="carte-style">
+                    <img src="images/noblesse-kaisel.jpg" alt="" class="image-style">
+                    <h3>Dark Fantasy</h3>
+                    <p>Ambiance sombre, contrastes forts</p>
+                </div>
+
+                <div class="carte-style">
+                    <img src="images/Luffy.jpg" height="30px" class="image-style">
+                    <h3>Chibi</h3>
+                    <p>Petits formats, mignons et expressifs</p>
+                </div>
+
+                <div class="carte-style">
+                    <img src="images/cyberpunk.jpg" alt="" class="image-style">
+                    <h3>Cyberpunk Manga</h3>
+                    <p>Style futurisme et urbain</p>
+                </div>
+
+                <div class="carte-style">
+                    <img src="images/Japanese-god.png" alt="" class="image-style">
+                    <h3>Yokai / Horror</h3>
+                    <p>Créatures mystiques, ambiance horreur japonaise</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="commande" class="section-commande">
+            <h2 class="titre-section">Passe ta <span>commande</span></h2>
+
+            <div class="atelier-commande">
+
+                <!-- COLONNE FORMULAIRE -->
+
+                <div class="colonne-formulaire">
+
+                    <div class="bloc-champ">
+                        <span class="repere-champ">1. Vêtement</span>
+                        <div class="rangee-choix">
+                            <button type="button" class="choix-pilule">T-Shirt</button>
+                            <button type="button" class="choix-pilule">Hoodie</button>
+                            <button type="button" class="choix-pilule">Sweat</button>
+                            <button type="button" class="choix-pilule">Casquette</button>
+                        </div>
+                    </div>
+
+                    <div class="bloc-champ">
+                        <span class="repere-champ">2. Style choisi</span>
+                        <input type="text" class="saisie-texte" required placeholder="Ton style">
+                    </div>
+
+                    <div class="bloc-champ bloc-champ--duo">
+                        <div>
+                            <span class="repere-champ">3. Taille</span>
+                            <div class="rangee-choix">
+                                <button type="button" class="choix-taille">S</button>
+                                <button type="button" class="choix-taille choix-taille--actif">M</button>
+                                <button type="button" class="choix-taille">L</button>
+                                <button type="button" class="choix-taille">XL</button>
+                                <button type="button" class="choix-taille">XXL</button>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="repere-champ">4. Couleur</span>
+                            <div class="rangee-teintes">
+                                <button type="button" class="teinte teinte--noir teinte--actif" aria-label="Noir"></button>
+                                <button type="button" class="teinte teinte--rouge" aria-label="Rouge"></button>
+                                <button type="button" class="teinte teinte--blanc" aria-label="Blanc"></button>
+                                <button type="button" class="teinte teinte--ivoire" aria-label="Ivoire"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bloc-champ">
+                        <span class="repere-champ">5. Quantité</span>
+                        <div class="reglette-quantite">
+                            <button type="button" class="bouton-pas" id="quantiteMoins" aria-label="Diminuer">−</button>
+                            <span class="affichage-quantite" id="quantiteValeur">1</span>
+                            <button type="button" class="bouton-pas" id="quantitePlus" aria-label="Augmenter">+</button>
+                        </div>
+                    </div>
+
+                    <div class="bloc-champ">
+                        <span class="repere-champ">6. Précisions</span>
+                        <textarea class="saisie-texte saisie-texte--zone" id="precisions" placeholder="Lien d'une réf, position du dessin, couleur du trait..."></textarea>
+                    </div>
+
+                    <div class="bloc-champ bloc-champ--duo">
+                        <div>
+                            <span class="repere-champ">7. Ville de livraison</span>
+                            <select class="saisie-texte saisie-select" id="villeLivraison">
+                                <option value="Dakar">Dakar</option>
+                                <option value="Saint-Louis">Saint-Louis</option>
+                                <option value="Thies">Thies</option>
+                            </select>
+                        </div>
+                        <div>
+                            <span class="repere-champ">8. Nom complet</span>
+                            <input type="text" class="saisie-texte" id="nomComplet" placeholder="Ton nom">
+                        </div>
+                    </div>
+
+                    <div class="bloc-champ">
+                        <span class="repere-champ">Contact</span>
+                        <input type="text" class="saisie-texte" id="contact" placeholder="WhatsApp ou email">
+                    </div>
+
+                    <button type="button" class="bouton-envoyer-ticket" id="envoyerCommande">
+                        Envoyer la commande <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <footer class="pied-page">
+            <div class="pied-page_haut">
+                <div class="pied-page_marque">
+                    <img src="images/LOGO FOND BLANC- 1.png" alt="Evil Illustration" id="pied-page_logo">
+                    <p class="pied-page_slogan">Streetwear manga, imprimé avec soin.</p>
+                </div>
+
+                <nav class="pied-page_liens">
+                    <a href="#accueil">Accueil</a>
+                    <a href="#styles">Styles</a>
+                    <a href="#commande">Commander</a>
+                </nav>
+
+                <div class="pied-page_reseaux">
+                    <a href="#" ><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" ><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#" ><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="pied-page_bas">
+                <p>&copy; 2026 Evil Illustration — Dakar . Saint-Louis . Abidjan</p>
+            </div>
+        </footer>
+
+    </body>
+
+</html>
