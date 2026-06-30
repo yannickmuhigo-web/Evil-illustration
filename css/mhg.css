@@ -134,7 +134,7 @@ video{
   margin-bottom:28px;
 }
 
-.bouton-cta{
+.link-cta{
   background:rgb(214,40,43);
   color:#fff;
   border:none;
@@ -151,7 +151,7 @@ video{
   text-decoration: none;
 }
 
-.bouton-cta:hover{box-shadow:0 0 20px rgba(214,40,43,0.5);}
+.link-cta:hover{box-shadow:0 0 20px rgba(214,40,43,0.5);}
 
 
 .image-presentation{
