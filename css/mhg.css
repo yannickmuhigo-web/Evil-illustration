@@ -148,10 +148,13 @@ video{
   align-items:center;
   gap:10px;
   transition:box-shadow .2s;
+}
+.bouton-cta:hover{box-shadow:0 0 20px rgba(214,40,43,0.5);}
+
+.bouton-cta a {
   text-decoration: none;
   font-weight: 500;
 }
-.bouton-cta:hover{box-shadow:0 0 20px rgba(214,40,43,0.5);}
 
 .image-presentation{
   flex:1;
