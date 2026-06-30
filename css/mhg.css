@@ -548,7 +548,11 @@ video{
     header {
         padding: 16px 20px;
     }
-
+    
+    video{
+        height: 100px;
+        width: 230px;
+    }
     .presentation {
         padding: 32px 16px 20px;
     }
@@ -557,7 +561,7 @@ video{
         font-size: 2.4rem;
     }
 
-    .grille-styles {
+    .grille-styles { 
         grid-template-columns: 1fr;
     }
 
