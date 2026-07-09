@@ -306,7 +306,7 @@
             .entete { padding: 18px 24px; }
             .logo-entete img { height: 50px; width: 50px; }
             .pied-page_marque img { height: 50px; width: 50px; transform: translateY(-8px); }
-            .navigation-principale { display: flex; gap: 10px; transform: translateX(-10px); }
+            .navigation-principale { display: flex; gap: 10px; transform: translateX(14px); }
             .lien-nav { font-size: 9px; }
             .actions-entete { display: none; }
             .section-a-propos { padding: 70px 24px 90px; }
