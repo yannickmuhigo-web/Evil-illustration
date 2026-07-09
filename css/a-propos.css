@@ -310,7 +310,7 @@
             .lien-nav { font-size: 9px; }
             .actions-entete { display: none; }
             .section-a-propos { padding: 70px 24px 90px; }
-            .titre-section { font-size: 22px; transform: translatey(15px); }
+            .titre-section { font-size: 20px; transform: translatey(15px); }
             .bloc-manifeste { grid-template-columns: 1fr; gap: 50px; }
             .sceau-atelier { width: 220px; height: 220px; }
             .grille-valeurs { grid-template-columns: 1fr; }
