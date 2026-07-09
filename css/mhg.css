@@ -566,7 +566,7 @@ video{
 @media (max-width: 430px) {
 
     .entete{
-      gap: 15px;
+      gap: 12px;
     }
     .grille-styles {
         width: 100%;
