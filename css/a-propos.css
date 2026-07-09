@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Story+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Sora:wght@100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Sora:wght@100..800&family=Space+Grotesk:wght@300..700&display=swap');
+  
+  
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+ 
+        body {
+            background-color: #0A0A0A;
+            color: #F2EDE7;
+            font-family: 'space grotesk';
+        }
+ 
+        
+
+        /* ==========================================================
+           EN-TÊTE (repris du site pour cohérence de navigation)
+        ========================================================== */
+
+
+        
+        .entete {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 22px 50px;
+            background-color: transparent;
+            border-bottom: 1px solid rgba(214,40,43,0.1);
+            backdrop-filter: blur(10px);
+        }
+ 
+        .logo-entete img { 
+            height:80px;
+            width:80px;
+            border-radius:50%;
+            box-shadow: 0 0 18px rgb(214,40,43); 
+        }
+ 
+        .navigation-principale { display: flex; gap: 40px; }
+ 
+        .lien-nav {
+            font-family: 'space grotesk';
+            font-weight: 400;
+            font-size: 14px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #ffffff;
+            position: relative;
+            padding-bottom: 6px;
+        }
+ 
+        .lien-nav--actif { color: #F2EDE7; };
+
+
+
+        /* .actions-entete { display: flex; align-items: center; } */
+ 
+        .icone-action {
+            position: relative;
+            background: none;
+            border: none;
+            color: #F2EDE7;
+            font-size: 18px;
+            cursor: pointer;
+        }
+ 
+        .badge-panier {
+            position: absolute;
+            top: -8px;
+            right: -10px;
+            background-color: #D6282B;
+            color: #F2EDE7;
+            font-size: 10px;
+            font-weight: 700;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+ 
+        /* ==========================================================
+           SECTION À PROPOS
+        ========================================================== */
+
+
+        .section-a-propos {
+            padding: 100px 60px 120px;
+            position: relative;
+            overflow: hidden;
+             background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), 
+                url("../images/bg--site.jpg") center/cover no-repeat;
+        }
+ 
+        .titre-section {
+            font-family: 'sora', sans-serif;
+            font-size: 50px;
+            letter-spacing: 0.03em;
+            text-align: center;
+            color: #F2EDE7;
+            margin-bottom: 70px;
+        }
+ 
+        .titre-section span { color: #D6282B; }
+ 
+        /* --- Bloc manifeste : texte + sceau signature --- */
+
+        .bloc-manifeste {
+            display: grid;
+            grid-template-columns: 1.3fr 1fr;
+            gap: 80px;
+            align-items: center;
+            max-width: 1180px;
+            margin: 0 auto 110px;
+        }
+ 
+        .manifeste-eyebrow {
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: #D6282B;
+            margin-bottom: 18px;
+            display: block;
+        }
+ 
+        .manifeste-texte p {
+            font-size: 17px;
+            line-height: 1.85;
+            color: #C9C2B9;
+            margin-bottom: 22px;
+        }
+ 
+        .manifeste-texte p:last-child { margin-bottom: 0; }
+ 
+        .manifeste-texte strong { color: #F2EDE7; font-weight: 700; }
+ 
+
+        
+        /* Sceau / cachet façon tampon d'encre */ 
+
+
+        .sceau-atelier {
+            width: 260px;
+            height: 260px;
+            margin: 0 auto;
+            border: 2px solid #D6282B;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            background: radial-gradient(circle at 50% 40%, rgba(214,40,43,0.14), transparent 70%);
+        }
+ 
+        .sceau-atelier::before {
+            content: "";
+            position: absolute;
+            inset: 14px;
+            border: 1px dashed #5A2426;
+            border-radius: 50%;
+        }
+ 
+        .sceau-signature {
+            font-family: 'sora', cursive;
+            font-size: 40px;
+            color: #F2EDE7;
+            line-height: 1;
+        }
+ 
+        .sceau-legende {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: #A9A29A;
+            margin-top: 14px;
+        }
+ 
+        .sceau-ville {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 20px;
+            letter-spacing: 0.06em;
+            color: #D6282B;
+            margin-top: 6px;
+        }
+ 
+        /* --- Triptyque de valeurs : Trait / Encre / Rue --- */
+
+        .grille-valeurs {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2px;
+            max-width: 1180px;
+            margin: 0 auto;
+            background-color: transparent;
+        }
+ 
+        .carte-valeur {
+            background-color: #000000;
+            padding: 46px 36px;
+            position: relative;
+        }
+ 
+        .carte-valeur:hover { background-color: #120A0A; }
+ 
+        .valeur-glyphe {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 15px;
+            letter-spacing: 0.1em;
+            color: #6B6B6B;
+            margin-bottom: 24px;
+        }
+ 
+        .valeur-titre {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 30px;
+            letter-spacing: 0.03em;
+            color: #F2EDE7;
+            margin-bottom: 14px;
+        }
+ 
+        .valeur-titre span { color: #D6282B; }
+ 
+        .carte-valeur p {
+            font-size: 14.5px;
+            line-height: 1.7;
+            color: #A9A29A;
+        }
+ 
+      
+
+
+
+
+        .bande-citation {
+            transform: translatey(90px);
+            text-align: center;
+            padding: 0 20px;
+        }
+ 
+        .bande-citation p {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 30px;
+            letter-spacing: 0.02em;
+            line-height: 1.4;
+            color: #F2EDE7;
+        }
+ 
+        .bande-citation p span { color: #D6282B; }
+ 
+        .bande-citation-auteur {
+            margin-top: 18px;
+            font-family: 'Archivo', sans-serif;
+            font-size: 13px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #6B6B6B;
+        }
+ 
+        /* ==========================================================
+           PIED DE PAGE (repris du site)
+        ========================================================== */
+
+
+        .pied-page { background-color: #050505; border-top: 1px solid #1F1F1F; padding: 60px 60px 24px; }
+ 
+        .pied-page_haut {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+ 
+        .pied-page_marque img { height: 40px; margin-bottom: 12px; }
+        .pied-page_slogan { color: #6B6B6B; font-size: 13px; }
+ 
+        .pied-page_liens { display: flex; gap: 28px; }
+        .pied-page_liens a { color: #A9A29A; font-size: 13px; text-transform: uppercase; letter-spacing: 0.06em; }
+ 
+        .pied-page_reseaux { display: flex; gap: 18px; }
+        .pied-page_reseaux a { color: #F2EDE7; font-size: 16px; }
+ 
+        .pied-page_bas { border-top: 1px solid #1F1F1F; padding-top: 20px; text-align: center; }
+        .pied-page_bas p { color: #6B6B6B; font-size: 12px; }
+ 
+
+
+        /* ==========================================================
+           RESPONSIVE
+        ========================================================== */
+
+
+
+        @media (max-width: 900px) {
+            .entete { padding: 18px 24px; }
+            .navigation-principale { display: none; }
+            .section-a-propos { padding: 70px 24px 90px; }
+            .titre-section { font-size: 35px; }
+            .bloc-manifeste { grid-template-columns: 1fr; gap: 50px; }
+            .sceau-atelier { width: 220px; height: 220px; }
+            .grille-valeurs { grid-template-columns: 1fr; }
+            .pied-page { padding: 50px 24px 24px; }
+            .bande-citation { width: 90%; font-size: 20px;}
+        }

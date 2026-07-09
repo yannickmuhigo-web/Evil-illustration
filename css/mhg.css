@@ -46,7 +46,7 @@ body{
   text-transform:uppercase;
   letter-spacing:1px;
   padding-bottom:8px;
-  transition:box-shadow .2s;
+  transition:box-shadow 0.2s ease;
 }
 .lien-nav:hover{
   box-shadow:0 4px 0 0 rgb(214,40,43);
@@ -520,7 +520,7 @@ video{
 }
 
 
-/* --------RESPONVIVE MOBILE--------- */
+/* --------RESPONVIVE--------- */
 
 
 @media (max-width: 900px) {
@@ -536,79 +536,63 @@ video{
     }
 
     .grille-styles {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 
     .bloc-champ--duo {
         flex-direction: column;
     }
-}
-
-@media (max-width: 700px) {
-    header {
-        padding: 16px 20px;
-    }
-    
-    video{
-        height: 100px;
-        width: 230px;
-    }
-    .presentation {
-        padding: 32px 16px 20px;
-    }
-
-    .texte-presentation h1 {
-        font-size: 2.4rem;
-    }
-
-    .grille-styles { 
-        grid-template-columns: 1fr;
-    }
-
-    .carte-style img {
-        height: 220px;
-    }
-
-    section {
-        padding: 60px 20px;
-    }
-
-    .bloc-champ {
-        padding: 16px;
-    }
-
-    .pied-page {
-        padding: 28px 20px 20px;
-    }
-
-    .pied-page_haut {
-        align-items: flex-start
-    }
-
-    .pied-page_liens {
-        gap: 12px;
-    }
-}
-
-@media (max-width: 480px) {
-    header {
-        display: flex;
-        gap: 10px;
-        justify-content: end;
-    }
 
     .logo-entete img {
-        width: 20px;
+        height: 60px;
+        width: 60px;
     }
 
-    nav.navigation-principale {
+    .navigation-principale {
+        display: flex;
+        gap: 20px;
+    }
+
+    
+}
+
+@media (max-width: 430px) {
+    .grille-styles {
         width: 100%;
-        justify-content: space-between;
-        gap: 10px;
+        padding: 40px 20px;
+        align-items: center;
     }
 
-    .presentation {
-        padding: 24px 14px 16px;
+    .navigation-principale {
+        display: flex;
+        gap : 10px;
+    }
+
+    video {
+        display: none;
+    }
+
+    .pied-page_liens{
+        transform: translatey(20px);
+    }
+
+    .lien-nav {
+        font-size: 0.6rem;
+    }
+
+    .actions-entete {
+       display: none;
+    }
+
+    .titre-section {
+        font-size: 20px;
+    }
+
+    .texte-presentation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.8rem;
     }
 
     .texte-presentation h1 {
@@ -616,33 +600,25 @@ video{
     }
 
     .texte-presentation p {
-        font-size: 0.95rem;
+        font-size: 0.8rem;
+        text-align: center;
     }
 
-    .bouton-cta,
+    .villes-presentation {
+        font-size: 0.6rem;
+    }
+
+    .pied-page_logo {
+        height: 60px;
+        width: 60px;
+        box-shadow: 0 0 18px rgb(214,40,43);
+        border-radius: 50%;
+    }
+
     .bouton-envoyer-ticket {
         width: 100%;
     }
-
-    .rangee-choix {
-        gap: 8px;
-    }
-
-    .choix-pilule,
-    .choix-taille,
-    .teinte {
-        padding: 8px 12px;
-        width: 100%;
-        max-width: 120px;
-    }
-
-    .saisie-texte,
-    .saisie-texte--zone {
-        font-size: 1rem;
-    }
-
-    .pied-page_reseaux {
-        font-size: 1rem;
-    }
 }
+
+
 
