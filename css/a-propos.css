@@ -304,9 +304,10 @@
 
         @media (max-width: 900px) {
             .entete { padding: 18px 24px; }
-            .navigation-principale { display: none; }
+            .navigation-principale { display: flex;font-size: 0.9rem; gap: 12px; }
+            .actions-entete { display: none; }
             .section-a-propos { padding: 70px 24px 90px; }
-            .titre-section { font-size: 35px; }
+            .titre-section { font-size: 30px; }
             .bloc-manifeste { grid-template-columns: 1fr; gap: 50px; }
             .sceau-atelier { width: 220px; height: 220px; }
             .grille-valeurs { grid-template-columns: 1fr; }
