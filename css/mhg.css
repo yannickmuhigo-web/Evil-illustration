@@ -546,26 +546,9 @@ video{
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 
-    .bloc-champ--duo {
-        flex-direction: column;
-    }
-
-    .logo-entete img {
-        height: 60px;
-        width: 60px;
-    }
-
-    .navigation-principale {
-        display: flex;
-        gap: 20px;
-    }
-
     
-}
-
-@media (max-width: 430px) {
-
-    .entete{
+   
+     .entete{
       padding: 18px 24px;
     }
 
@@ -651,7 +634,7 @@ video{
         width: 100%;
       font-size: 0.8rem;
     }
-
+    
 }
 
 
