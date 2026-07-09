@@ -6,8 +6,143 @@
     <title>Contact</title>
     <link rel="stylesheet" href="../css/mhg.css">
     <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-kE+4d...==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
-    
+    <header class="entete">
+        <div class="logo-entete">
+            <img src="../images/LOGO FOND Noir1.png" alt="Evil Illustration">
+        </div>
+        <nav class="navigation-principale">
+            <a href="../index.html#accueil" class="lien-nav">Accueil</a>
+            <a href="../index.html#styles" class="lien-nav">Styles</a>
+            <a href="a-propos.html" class="lien-nav">À propos</a>
+            <a href="../index.html#commande" class="lien-nav">Commander</a>
+            <a href="contact.html" class="lien-nav lien-nav--actif">Contact</a>
+        </nav>
+    </header>
+
+    <div class="entete-page">
+        <h1>Contactez-<span>nous</span></h1>
+        <p>Une question sur une commande, une idée de collab, un partenariat ? Écris-nous, on répond vite.</p>
+    </div>
+
+    <section id="contact" class="section-contact">
+        <div class="atelier-contact">
+
+            <!-- COLONNE FORMULAIRE -->
+            <div class="colonne-formulaire">
+
+                <div class="bloc-champ">
+                    <span class="repere-champ">1. Motif du message</span>
+                    <div class="rangee-motifs">
+                        <button type="button" class="choix-motif choix-motif--actif">Commande</button>
+                        <button type="button" class="choix-motif">Collab</button>
+                        <button type="button" class="choix-motif">Presse</button>
+                        <button type="button" class="choix-motif">Autre</button>
+                    </div>
+                </div>
+
+                <div class="bloc-champ bloc-champ--duo">
+                    <div>
+                        <span class="repere-champ">2. Nom complet</span>
+                        <input type="text" class="saisie-texte" id="contactNom" placeholder="Ton nom">
+                    </div>
+                    <div>
+                        <span class="repere-champ">3. Contact</span>
+                        <input type="text" class="saisie-texte" id="contactMoyen" placeholder="WhatsApp ou email">
+                    </div>
+                </div>
+
+                <div class="bloc-champ">
+                    <span class="repere-champ">4. Sujet</span>
+                    <input type="text" class="saisie-texte" id="contactSujet" placeholder="En une phrase">
+                </div>
+
+                <div class="bloc-champ">
+                    <span class="repere-champ">5. Message</span>
+                    <textarea class="saisie-texte saisie-texte--zone" id="contactMessage" placeholder="Dis-nous tout..."></textarea>
+                </div>
+
+                <button type="button" class="bouton-envoyer-message" id="envoyerMessage">
+                    Envoyer le message <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+            <!-- COLONNE INFOS -->
+            <div class="ticket-infos">
+                <h3 class="ticket-titre">Nos <span>coordonnées</span></h3>
+
+                <div class="ligne-info">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <div>
+                        <span class="ligne-info-label">WhatsApp</span>
+                        <span class="ligne-info-valeur">+221 XX XXX XX XX</span>
+                    </div>
+                </div>
+
+                <div class="ligne-info">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <span class="ligne-info-label">Email</span>
+                        <span class="ligne-info-valeur">contact@evilillustration.com</span>
+                    </div>
+                </div>
+
+                <div class="ligne-info">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <span class="ligne-info-label">Atelier</span>
+                        <span class="ligne-info-valeur">Dakar, Sénégal</span>
+                    </div>
+                </div>
+
+                <div class="ligne-info">
+                    <i class="fa-solid fa-clock"></i>
+                    <div>
+                        <span class="ligne-info-label">Réponse</span>
+                        <span class="ligne-info-valeur">Lun–Sam, sous 24h</span>
+                    </div>
+                </div>
+
+                <hr class="separateur-ticket">
+
+                <div class="ticket-reseaux">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="pied-page">
+        <div class="pied-page_haut">
+            <div class="pied-page_marque">
+                <img src="../images/LOGO FOND BLANC- 1.png" alt="Evil Illustration">
+                <p class="pied-page_slogan">Streetwear manga, imprimé avec soin.</p>
+            </div>
+
+            <nav class="pied-page_liens">
+                <a href="index.html#accueil">Accueil</a>
+                <a href="index.html#styles">Styles</a>
+                <a href="a-propos.html">À propos</a>
+                <a href="index.html#commande">Commander</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="pied-page_reseaux">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+        <div class="pied-page_bas">
+            <p>&copy; 2026 Evil Illustration — Dakar / Saint-Louis / Jamenajo</p>
+        </div>
+    </footer>
 </body>
 </html>
