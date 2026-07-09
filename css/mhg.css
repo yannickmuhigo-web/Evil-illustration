@@ -17,7 +17,6 @@ body{
 .entete{
   display:flex;
   justify-content:space-between;
-  gap: 20px;
   align-items:center;
   padding:18px 6%;
   position: sticky;
