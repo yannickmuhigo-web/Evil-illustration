@@ -141,7 +141,7 @@
        
 
 
-        .sceau-atelier {
+        /* .sceau-atelier {
             width: 260px;
             height: 260px;
             margin: 0 auto;
@@ -162,7 +162,7 @@
             inset: 14px;
             border: 1px dashed #5A2426;
             border-radius: 50%;
-        }
+        } */
  
         .sceau-signature {
             font-family: 'sora', cursive;
