@@ -16,10 +16,7 @@
  
         
 
-        /* ==========================================================
-           EN-TÊTE (repris du site pour cohérence de navigation)
-        ========================================================== */
-
+       
 
         
         .entete {
@@ -56,7 +53,7 @@
 
 
 
-        /* .actions-entete { display: flex; align-items: center; } */
+         
  
         .icone-action {
             position: relative;
@@ -85,9 +82,7 @@
 
 
  
-        /* ==========================================================
-           SECTION À PROPOS
-        ========================================================== */
+        
 
 
         .section-a-propos {
@@ -109,7 +104,7 @@
  
         .titre-section span { color: #D6282B; }
  
-        /* --- Bloc manifeste : texte + sceau signature --- */
+        
 
         .bloc-manifeste {
             display: grid;
@@ -143,7 +138,7 @@
  
 
         
-        /* Sceau / cachet façon tampon d'encre */ 
+       
 
 
         .sceau-atelier {
@@ -192,8 +187,12 @@
             color: #D6282B;
             margin-top: 6px;
         }
+
+
  
-        /* --- Triptyque de valeurs : Trait / Encre / Rue --- */
+       
+
+
 
         .grille-valeurs {
             display: grid;
@@ -266,9 +265,12 @@
             color: #6B6B6B;
         }
  
-        /* ==========================================================
-           PIED DE PAGE (repris du site)
-        ========================================================== */
+        
+
+
+
+
+
 
 
         .pied-page { background-color: #050505; border-top: 1px solid #1F1F1F; padding: 60px 60px 24px; }
@@ -296,9 +298,7 @@
  
 
 
-        /* ==========================================================
-           RESPONSIVE
-        ========================================================== */
+        
 
 
 
