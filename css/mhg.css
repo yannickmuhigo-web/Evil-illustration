@@ -450,6 +450,13 @@ video{
     padding: 60px 40px 0;
 }
 
+.pied-page_logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(214,40,43);
+}
+
 .pied-page_haut {
     max-width: 1100px;
     margin: 0 auto;
