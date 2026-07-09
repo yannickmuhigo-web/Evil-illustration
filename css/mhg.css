@@ -467,6 +467,13 @@ video{
   gap: 15px;
 }
 
+.pied-page_marque img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgb(214,40,43);
+}
+
 .pied-page_marque #pied-page_logo{
   height:80px;
   width:80px;
@@ -568,6 +575,14 @@ video{
         gap : 10px;
     }
 
+    .logo-entete img {
+        height: 50px;
+        width: 50px;
+    }
+    .lien-nav {
+        font-size: 9px;
+    }
+
     video {
         display: none;
     }
@@ -608,15 +623,28 @@ video{
         font-size: 0.6rem;
     }
 
-    .pied-page_logo {
-        height: 60px;
-        width: 60px;
-        box-shadow: 0 0 18px rgb(214,40,43);
-        border-radius: 50%;
+    .pied-page_haut {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pied-page_liens {
+        transform: translateY(-8px);
     }
 
     .bouton-envoyer-ticket {
         width: 100%;
+    }
+    .pied-page_marque img {
+        height: 50px;
+        width: 50px;
+        transform: translateY(-8px);
+    }
+
+    .colonne-formulaire, .bloc-champ--duo, .bloc-champ, .saisie-texte, .saisie-select, .saisie-texte--zone, .repere-champ {
+        width: 100%;
+      font-size: 0.8rem;
     }
 }
 
