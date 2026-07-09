@@ -549,7 +549,7 @@ video{
     .entete { padding: 18px 24px; }
     .logo-entete img { height: 50px; width: 50px; }
     .pied-page_marque img { height: 50px; width: 50px; transform: translateY(-8px); }
-    .navigation-principale { display: flex; gap: 10px; transform: translateX(-10px); }
+    .navigation-principale { display: flex; gap: 10px; transform: translateX(15px); }
     .lien-nav { font-size: 9px; }
   
     .grille-styles {
@@ -565,7 +565,7 @@ video{
     .pied-page_liens{
         transform: translatey(20px);
     }
-    
+
     .actions-entete {
        display: none;
     }
