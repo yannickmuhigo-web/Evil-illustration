@@ -245,7 +245,7 @@
         }
  
         .bande-citation p {
-            font-family: 'Bebas Neue', sans-serif;
+            font-family: 'google sans', sans-serif;
             font-size: 30px;
             letter-spacing: 0.02em;
             line-height: 1.4;
@@ -334,5 +334,7 @@
             .pied-page_liens {transform: translateY(-8px);}
             
             .pied-page_liens a{ font-size: 0.7rem;  gap: 12px;}
+
+            .grille-valeurs{ display: none;}
                 
         }
