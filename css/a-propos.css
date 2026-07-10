@@ -256,18 +256,15 @@
  
         .bande-citation-auteur {
             margin-top: 18px;
-            font-family: 'Archivo', sans-serif;
+            font-family: 'sora', sans-serif;
             font-size: 13px;
             letter-spacing: 0.1em;
             text-transform: uppercase;
-            color: #6B6B6B;
+            color: #d3cfcf;
+            
         }
  
         
-
-
-
-
 
 
 
@@ -328,7 +325,8 @@
             .bande-citation { width: 90%; font-size: 20px;}
             .manifeste-texte p { font-size: 15px; }
             .pied-page_haut{ display:flex; flex-direction: column; align-items: center; text-align: center; }
-            .bande-citation p{ display:flex; flex-direction: column; align-items: center; font-size: 22px;justify-content: center; transform: translate(15px,-25px); }
+            .bande-citation p{ display:flex; flex-direction: column; align-items: center; font-size: 22px; justify-content: center; transform: translate(15px,-25px); }
+            .bande-citation-auteur{ display:flex; flex-direction: column; align-items: center; font-size: 0.5rem; justify-content: center; }
             .pied-page_slogan { font-size: 0.6rem; max-width: 100%; text-align: left;}
 
             .pied-page_liens {transform: translateY(-8px);}
