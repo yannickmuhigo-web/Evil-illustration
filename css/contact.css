@@ -39,7 +39,7 @@
             padding-bottom: 6px;
         }
 
-        .lien-nav--actif { color: #F2EDE7; }
+        .lien-nav--actif { color: rgb(214,40,43); }
 
         .actions-entete { display: flex; align-items: center; }
 
