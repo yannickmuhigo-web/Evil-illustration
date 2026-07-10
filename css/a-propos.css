@@ -318,4 +318,5 @@
             .pied-page_haut{ display:flex; flex-direction: column; align-items: center; text-align: center; }
             .pied-page_liens { transform: translateY(-8px); }
             .bande-citation p{ display:flex; flex-direction: column; align-items: center; font-size: 22px;justify-content: center; transform: translate(15px,-25px); }
+            .pied-page_liens a{ font-size: 0.6rem;  gap: 12px;}
         }

@@ -603,6 +603,8 @@ video{
     .pied-page_liens {
         transform: translateY(-8px);
     }
+    
+    .pied-page_liens a{ font-size: 0.6rem;  gap: 12px;}
 
     .bouton-envoyer-ticket {
         width: 100%;
@@ -612,6 +614,10 @@ video{
         width: 100%;
       font-size: 0.8rem;
     }
+
+    .link-cta{ font-size: 12px; padding: 12px;}
+
+    .bouton-envoyer-ticket { font-size: 12px; padding: 12px; }
     
 }
 

@@ -326,4 +326,6 @@
             .pied-page { padding: 50px 24px 24px; }
             .pied-page_haut{ display:flex; flex-direction: column; align-items: center; text-align: center; }
             .pied-page_liens { transform: translateY(-8px);}
+            .pied-page_liens a{ font-size: 0.6rem;  gap: 12px;}
+            .bouton-envoyer-message { font-size: 12px; padding: 12px; }
         }
