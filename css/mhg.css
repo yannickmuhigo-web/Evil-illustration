@@ -597,8 +597,9 @@ video{
     }
 
     .pied-page_slogan {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         max-width: 100%;
+        text-align: left;
     }
 
     .pied-page_liens {
