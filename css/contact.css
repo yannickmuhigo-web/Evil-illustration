@@ -212,21 +212,7 @@
             position: relative;
         }
 
-        .ticket-infos::before,
-        .ticket-infos::after {
-            content: "";
-            position: absolute;
-            width: 26px;
-            height: 26px;
-            background-color: #0A0A0A;
-            border-radius: 50%;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .ticket-infos::before { left: -13px; }
-        .ticket-infos::after { right: -13px; }
-
+       
         .ticket-titre {
             font-family: 'Bebas Neue', sans-serif;
             font-size: 24px;
