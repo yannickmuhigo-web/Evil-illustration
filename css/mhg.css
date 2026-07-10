@@ -562,10 +562,6 @@ video{
         display: none;
     }
 
-    .pied-page_liens{
-        transform: translatey(20px);
-    }
-
     .actions-entete {
        display: none;
     }
@@ -600,11 +596,16 @@ video{
         text-align: center;
     }
 
+    .pied-page_slogan {
+        font-size: 0.8rem;
+        max-width: 100%;
+    }
+
     .pied-page_liens {
         transform: translateY(-8px);
     }
     
-    .pied-page_liens a{ font-size: 0.6rem;  gap: 12px;}
+    .pied-page_liens a{ font-size: 0.7rem;  gap: 12px;}
 
     .bouton-envoyer-ticket {
         width: 100%;
