@@ -76,7 +76,7 @@ body{
   position:relative;
 }
 
-.badge-panier{
+/* .badge-panier{
   position:absolute;
   top:-8px;
   right:-8px;
@@ -89,7 +89,7 @@ body{
   display:flex;
   align-items:center;
   justify-content:center;
-}
+} */
 
 .presentation{
   display:flex;
